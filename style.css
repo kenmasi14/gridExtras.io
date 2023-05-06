@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header.headerHead{
+    background-color: rgba(0, 0, 0, 0.98);
+    background-image: url(./assets/inflicted.png);
+    color: white;
+    margin: 0;
+    padding: .5rem 0 0 0;
+}
+header .headerData{
+    padding: 0 8%;
+}
+
+.btnTwitter{
+    background-color: #0C7ABF;
+    font-size: 14px;
+}
+
+.btnTwitter:hover{
+    background-color: #05629b;
+}
+nav.navbarData{
+    border-bottom: 1px solid #222;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all;
+    height: 100%;
+    max-height: 2rem;
+}
+
+nav.navbarData ul{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    justify-content: space-around;
+    list-style: none;
+    color: black;
+    overflow: hidden;
+    column-gap: 10px;
+    padding: 0 5%;
+}
+
+nav.navbarData ul li {
+    white-space: nowrap;
+}
+
+nav.navbarData ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 100% 20%;
+}
+
+nav.navbarData ul li:hover a{
+    background-color: rgba(255, 255, 255, 0.712);
+    transition-duration: .5s;
+}
+
+@media (max-width:767px) {
+    nav.navbarData ul{
+        display: block;
+        margin-bottom: 12rem;
+        overflow: visible;
+        line-height: 40px;
+        text-align: center;
+    }
+    nav.navbarData{
+        max-height: 100%;
+    }
+}
+
+.sectionBody {
+    padding: 1% 8%;
+}
+
+
+.panelBox{
+    background-image: url(./assets/inflicted.png);
+}
+
+.pandelBoxSecondary{
+    background-image: url(./assets/tiny_grid.png);
+}
+
+.pandelBoxSize{
+    height: 100%;
+    max-height: auto;
+    padding: 1rem;
+    border: 1px solid #999;
+    position: relative;
+    border-radius: 3px;
+}
+
+.sectionRow .col{
+    padding: 15px 10px;
+}
+.pandelBoxThird{
+    background-color: #5e35b1;
+}
+
+
+.pandelBoxforth::before{
+    content: 'New!';
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    transform: rotate(-20deg);
+    display: inline-block;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.98);
+    background-image: url(./assets/inflicted.png);
+    color: black;
+    padding: 1rem 0;
+    margin: 4rem 0 0 0;;
+    font-size: 85%;
+}
+
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
